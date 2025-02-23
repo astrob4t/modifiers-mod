@@ -1,0 +1,8 @@
+{
+    "id": "modifiers-mod",
+    "name": "Modifiers",
+    "author": "astrob4t",
+    "description": "Mod of modifiers that mods levels with modifiers.",
+    "version": "0.1",
+    "enabled": true
+}

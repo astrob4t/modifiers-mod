@@ -1,0 +1,36 @@
+[manifest]
+version = "1.0.0"
+dump_lua = true
+priority = 2147483646
+
+[[patches]]
+[patches.pattern]
+target = "obj/Player.lua"
+pattern = '''
+			self.angle = self.anglePrevFrame + angleCap
+'''
+position = 'at'
+payload = '''
+            self.angle = self.anglePrevFrame
+'''
+match_indent = true
+times = 1
+# Make the player not rotate CW [line 245]
+
+
+[[patches]]
+[patches.pattern]
+target = "obj/Player.lua"
+pattern = '''
+		if angleDifference < -angleCap then
+			self.angle = self.anglePrevFrame - angleCap
+'''
+position = 'at'
+payload = '''
+        if angleDifference < 0 then
+            self.angle = self.anglePrevFrame
+'''
+match_indent = true
+times = 1
+# Make the player not rotate CCW [line 248]
+

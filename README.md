@@ -12,10 +12,14 @@ A mod for beatblock that adds modifiers.
 
 ### Method 1
 1. Open powershell
-2. Run ###
-   `cd %appdata%/beatblock/mods`
-3. Run ###
-   `git clone https://github.com/astrob4t/modifiers-mod.git`
+2. Run
+```
+   cd %appdata%/beatblock/mods
+```
+4. Run
+```
+   git clone https://github.com/astrob4t/modifiers-mod.git
+```
 
 ### Method 2
 1. Download the source code

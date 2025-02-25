@@ -5,7 +5,7 @@ A mod for beatblock that adds modifiers.
 1. Download releases from [lovely-injector](https://github.com/Speretta/lovely-injector/releases/tag/v0.5.0-beta7)
 2. Move version.dll to the same folder as the beatblock.exe file.
 
-3. Download the [beatblock-plus](https://github.com/erenkarakal/beatblock-plus) github repo.
+3. Download the [beatblock-plus](https://github.com/BeatblockTools/BeatblockPlus) github repo.
 4. Move/copy the beatblock-plus folder into '%appdata%/beatblock/mods'
 
 5. Downloading this repo (two methods)
